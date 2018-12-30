@@ -1,0 +1,23 @@
+{
+  "name": "serveur",
+  "version": "1.0.0",
+  "description": "A simple serveur",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "nodemon": "nodemon app.js --exec 'npm run lint && node'",
+    "lint": "eslint *.js"
+  },
+  "keywords": [
+    "city"
+  ],
+  "author": "Pin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-google": "^0.11.0"
+  }
+}
